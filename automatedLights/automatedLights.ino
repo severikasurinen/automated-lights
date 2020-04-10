@@ -11,8 +11,6 @@ bool inverted = true; // are relays inverted, true = LOW means on
 float timer = 0.5; // delay to turn off lights
 unsigned long counterStart[outputs];
 
-// Areas in the video: -1 = none, 0 = living room, 1 = toilet, 2 = entrance, 3 = pins[3]
-
 void setup()
 {
   // initialize sensors and set all values to 0
